@@ -1,0 +1,10 @@
+READ ME
+The GitHub repository consist of a few files and notebooks.
+In terms of files we have the Data_Set_S1
+
+The first notebook you want to run i the load_data_1, this creates the gpickle file Movie_network. When downloading from imdb you may run into timeout errors because imdb does not like to have too much traffic on their website, so some networks may come out differently depending on when the timeout is given, generally you will get around 9500 movies at least.
+Secondly you want to run the load_data_2, this adds on the synopses of the movie in the network and creates the gpickle file Movie_network_with_synopses.
+Then you are ready to work with the notebook Project_movies.
+The gpickle files should be in the repository to work directly with the Project_movies. 
+
+
